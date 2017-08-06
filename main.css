@@ -1,0 +1,77 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(bootstrap/fonts/glyphicons-halflings-regular.eot);
+}
+body{
+    background-color: #a6e1ec !important;
+    background: url("images/3.jpg") no-repeat 50% 50% ;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-size: 24px;
+}
+#con{
+    margin: 70px;
+}
+#logo{
+    float: left;
+    position: relative;
+    top:-100px;
+}
+#contact{
+    float: right;
+    position: relative;
+    top:-100px;
+}
+#practice,#normal{
+    margin-left: 15%;
+}
+#start{
+    margin-left: 25%;
+    width: 200px;
+}
+#start2{
+    margin-left: 40%;
+    width: 200px;
+}
+#ansSheet{
+    margin-left: 40%;
+    margin-top: 10px;
+    width: 200px;
+}
+#timeh{
+    margin-left: 25%;
+    font-size: x-large;
+    /*background-color:deepskyblue ;*/
+}
+.header{
+
+}
+#skipDiv{
+    float: right;
+}
+#skip{
+   margin-left: 130px;
+}
+#skipList{
+    width:200px;
+    min-height: 300px;
+    max-height:300px;
+    float:right;
+    background-color:white;
+    overflow: scroll;
+
+}
+
+tr{
+    text-align: center;
+}
+
+#finish{
+    margin-left: 200px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
